@@ -1,0 +1,13 @@
+/home/skynode/silvercrest/obj/Debug/net9.0/silvercrest.fsproj.AssemblyReference.cache
+/home/skynode/silvercrest/obj/Debug/net9.0/silvercrest.AssemblyInfoInputs.cache
+/home/skynode/silvercrest/obj/Debug/net9.0/silvercrest.AssemblyInfo.fs
+/home/skynode/silvercrest/obj/Debug/net9.0/silvercrest.fsproj.CoreCompileInputs.cache
+/home/skynode/silvercrest/bin/Debug/net9.0/silvercrest.deps.json
+/home/skynode/silvercrest/bin/Debug/net9.0/silvercrest.dll
+/home/skynode/silvercrest/bin/Debug/net9.0/silvercrest.pdb
+/home/skynode/silvercrest/bin/Debug/net9.0/silvercrest.xml
+/home/skynode/silvercrest/obj/Debug/net9.0/silvercrest.dll
+/home/skynode/silvercrest/obj/Debug/net9.0/refint/silvercrest.dll
+/home/skynode/silvercrest/obj/Debug/net9.0/silvercrest.xml
+/home/skynode/silvercrest/obj/Debug/net9.0/silvercrest.pdb
+/home/skynode/silvercrest/obj/Debug/net9.0/ref/silvercrest.dll
