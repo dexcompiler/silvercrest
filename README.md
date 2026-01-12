@@ -93,8 +93,16 @@ Silvercrest is strongly-typed Domain-Specific Language (DSL) for interacting wit
 - **TLS/SSL**: HTTPS required for RPC endpoint communication
 - **API Keys**: Secure storage for RPC provider API keys (use environment variables or secret managers)
 - **Private Keys**: If handling wallet operations, use secure key management practices
+  - Never log or expose private keys in error messages
+  - Use hardware wallets or secure enclaves when possible
 - **Dependencies**: Regularly update dependencies for security patches
-- **Code Access**: Ensure F# async workflows and promises are properly handled to avoid data leaks
+  - Monitor for vulnerabilities in Fable.Core, Fable.Promise, and web3.js
+  - Use `dotnet list package --vulnerable` to check for known vulnerabilities
+- **Async Safety**: Properly handle F# async workflows and JavaScript promises
+  - Use `async/await` patterns consistently to avoid race conditions
+  - Ensure sensitive data (keys, balances) is not logged in promise rejection handlers
+  - Clear sensitive data from memory when no longer needed
+  - Validate all data received from Solana RPC endpoints before processing
 
 ### Browser Support (for Fable-compiled applications)
 
